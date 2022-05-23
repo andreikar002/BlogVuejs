@@ -1,4 +1,5 @@
-import { createApp } from 'vue'
+import { createSSRApp } from 'vue'
 import App from './App.vue'
+import "./assets/tailwind.css";
 
-createApp(App).mount('#app')
+createSSRApp(App).mount('#app')
